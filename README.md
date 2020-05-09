@@ -1,1 +1,1 @@
-# yoguistore
+# yoguistore.github.io

@@ -14,7 +14,24 @@
 <body>
 <div class="container">
 	
-	<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+	<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Tienda
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Tienda</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       
+		  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
   		<li class="nav-item">
    			 <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Quienes Somos</a>
   		</li>
@@ -62,6 +79,114 @@
   		</li>
 		
 	</ul>
+		  
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+	
+	<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalpago">
+  Metodo de Pago
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalpago" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Metodo de Pago</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Paga cuando se le lleve el producto a la casa
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+	
+	<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalsomos">
+  Quienes somos
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalsomos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Quienes Somos</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row mt-1">
+			<div class="col-4">
+				<div class="list-group" id="lista" role="tablist">
+					<a class="list-group-item list-group-item-action active" data-toggle="list" href="#elemento1" role="tab" aria-controls="elemento1">Quienes Somos</a>
+					<a class="list-group-item list-group-item-action" data-toggle="list" href="#elemento2" role="tab" aria-controls="elemento2">Proyectos Educativo</a>
+					<a class="list-group-item list-group-item-action" data-toggle="list" href="#elemento3" role="tab" aria-controls="elemento3">Si quiere ser parte de esta iniciativa por favor escribamos</a>
+					<a class="list-group-item list-group-item-action" data-toggle="list" href="#elemento4" role="tab" aria-controls="elemento4">Redes Sociales</a>
+				</div>
+			</div>
+			<div class="col-8">
+				<div class="tab-content" id="nav-tabContent">
+					<div class="tab-pane fade show active" id="elemento1" role="tabpanel" aria-labelledby="elemento1">
+						<h3>Quienes Somos</h3>
+						<p>YoguiStore es una propuesta que parte de la clase de emprendimiento del docente Juan Carlos Blandón Vargas "YOGUIS" de la I.E Manuel J. Betancur, la cual tiene como objectivo convertir la adversidad por la que estamos pasando de la pandemia COVID-19 en una oportunidad, no solo iniciando a los aprendices en emprendimiento digital, sino tambien con la intencion de que sus familias obtengan un ingreso adicional, al mismo tiempo apoyando el comercio de San Antonio de Prado.</p>
+					</div>
+
+					<div class="tab-pane fade show" id="elemento2" role="tabpanel" aria-labelledby="elemento2">
+						<h3>Proyecto Educativo</h3>
+						<ul>
+							<li>Estudiantes Emprendedores Digitales</li>
+							<li>Curso: clasesconyoguis.github.io</li>
+						</ul>						
+					</div>
+
+					<div class="tab-pane fade show" id="elemento3" role="tabpanel" aria-labelledby="elemento3">
+						<h3>Si quiere ser parte de esta iniciativa por favor escribamos</h3>
+						<ul>
+							<li>yoguistore@gmail.com</li>
+							<li>Whatsapp</li>
+						</ul>						
+					</div>
+
+					<div class="tab-pane fade show" id="elemento4" role="tabpanel" aria-labelledby="elemento4">
+						<h3>Redes Sociales</h3>
+						<ul>
+							<li>facebook</li>
+							<li>Instagram</li>
+						</ul>						
+					</div>
+
+				</div>
+			</div>
+		</div>		
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+	
+</div>
+	
+<div class="container">	
+	
 	
 	<div class="tab-content" id="pills-tabContent">
   		<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">			
@@ -110,49 +235,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row mt-1">
-			<div class="col-4">
-				<div class="list-group" id="lista" role="tablist">
-					<a class="list-group-item list-group-item-action active" data-toggle="list" href="#elemento1" role="tab" aria-controls="elemento1">Quienes Somos</a>
-					<a class="list-group-item list-group-item-action" data-toggle="list" href="#elemento2" role="tab" aria-controls="elemento2">Proyectos Educativo</a>
-					<a class="list-group-item list-group-item-action" data-toggle="list" href="#elemento3" role="tab" aria-controls="elemento3">Si quiere ser parte de esta iniciativa por favor escribamos</a>
-					<a class="list-group-item list-group-item-action" data-toggle="list" href="#elemento4" role="tab" aria-controls="elemento4">Redes Sociales</a>
-				</div>
-			</div>
-			<div class="col-8">
-				<div class="tab-content" id="nav-tabContent">
-					<div class="tab-pane fade show active" id="elemento1" role="tabpanel" aria-labelledby="elemento1">
-						<h3>Quienes Somos</h3>
-						<p>YoguiStore es una propuesta que parte de la clase de emprendimiento del docente Juan Carlos Blandón Vargas "YOGUIS" de la I.E Manuel J. Betancur, la cual tiene como objectivo convertir la adversidad por la que estamos pasando de la pandemia COVID-19 en una oportunidad, no solo iniciando a los aprendices en emprendimiento digital, sino tambien con la intencion de que sus familias obtengan un ingreso adicional, al mismo tiempo apoyando el comercio de San Antonio de Prado.</p>
-					</div>
-
-					<div class="tab-pane fade show" id="elemento2" role="tabpanel" aria-labelledby="elemento2">
-						<h3>Proyecto Educativo</h3>
-						<ul>
-							<li>Estudiantes Emprendedores Digitales</li>
-							<li>Curso: clasesconyoguis.github.io</li>
-						</ul>						
-					</div>
-
-					<div class="tab-pane fade show" id="elemento3" role="tabpanel" aria-labelledby="elemento3">
-						<h3>Si quiere ser parte de esta iniciativa por favor escribamos</h3>
-						<ul>
-							<li>yoguistore@gmail.com</li>
-							<li>Whatsapp</li>
-						</ul>						
-					</div>
-
-					<div class="tab-pane fade show" id="elemento4" role="tabpanel" aria-labelledby="elemento4">
-						<h3>Redes Sociales</h3>
-						<ul>
-							<li>facebook</li>
-							<li>Instagram</li>
-						</ul>						
-					</div>
-
-				</div>
-			</div>
-		</div>			
+			
 		<hr>			
 	</div>
 		
